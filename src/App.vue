@@ -17,9 +17,14 @@
 </template>
 
 <script>
-export default {
+import Header from '@/components/Header.vue';
 
-}
+export default {
+  name: 'App',
+  components: {
+    Header,
+  },
+};
 </script>
 
 <style>
